@@ -1,0 +1,6 @@
+node_modules
+build
+/server/api_test.http
+.sonar_lock
+*.txt
+.scannerwork

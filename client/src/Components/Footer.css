@@ -1,0 +1,12 @@
+.main-footer {
+  background-color: black;
+  padding-top: 3em;
+  color: beige;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.ok:hover{
+
+  color:#228B22
+}

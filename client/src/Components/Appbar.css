@@ -1,0 +1,118 @@
+#logo {
+  color: white;
+  font-size: 24px;
+  margin-left: 1rem;
+}
+
+#home {
+  color: white;
+  font-size: 18px;
+}
+
+#service {
+  color: white;
+  font-size: 18px;
+  margin-left: 2rem;
+}
+
+#contact {
+  color: white;
+
+  font-size: 18px;
+  margin-left: 2rem;
+}
+
+#availableCars {
+  color: white;
+
+  font-size: 18px;
+  margin-left: 2rem;
+}
+
+#profile {
+  color: white;
+  font-size: 18px;
+  margin-left: 2rem;
+}
+#adminRoles {
+  color: white;
+  font-size: 18px;
+  margin-left: 2rem;
+}
+
+#adminRoles:hover {
+  color: #228b22;
+}
+
+#profile:hover {
+  color: #228b22;
+}
+
+#logo:hover {
+  color: #228b22;
+}
+
+#home:hover {
+  color: #228b22;
+}
+
+#contact:hover {
+  color: #228b22;
+}
+
+#service:hover {
+  color: #228b22;
+}
+
+#availableCars:hover {
+  color: #228b22;
+}
+#login {
+  color: white;
+
+  font-size: 18px;
+  margin-left: 2rem;
+}
+
+#login:hover {
+  color: #228b22;
+}
+/* .dropdown-item:active{
+        
+    background-color:#228B22 ;
+    } */
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.nav-link {
+  color: #228b22;
+}
+
+/* 
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; 
+     }   */
+
+.dropdown-menu {
+  background-color: #212529;
+}
+.dropdown-item {
+  color: whitesmoke;
+}
+.dropdown-item:hover {
+  background-color: #228b22;
+  color: white;
+}
+@media (max-width:768px) {
+  .sm-menu {
+    background-color: #212529;
+    text-align: center;
+  }
+  .dropdown-menu{
+    text-align: center;
+  }
+}

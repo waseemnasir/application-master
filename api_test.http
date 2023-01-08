@@ -1,0 +1,83 @@
+@hostname = localhost
+@port = 4000
+@host = {{hostname}}:{{port}}
+@contentType = application/json
+
+# POST /users
+POST http://{{host}}/api/sign-up
+Content-Type: {{contentType}}
+
+{
+    "fName": "Moeed",
+    "lName": "bhatti",
+    "email": "moeedbhatti419@gmail.com",
+    "password": "123456"
+}
+
+###
+POST http://{{host}}/api/login
+Content-Type: {{contentType}}
+
+{
+    "email": "temp@mail.com",
+    "password": "123"
+}
+
+###
+
+POST  http://{{host}}/api/sendEmail
+Content-Type: {{contentType}}
+{
+    "fName": "name",
+    "lName":"lname",
+    "email":"temp@mail.com",
+    "message": "message"
+}
+###
+
+POST  http://{{host}}/api/reset-password
+Content-Type: {{contentType}}
+
+{
+    "email":"usibutt99@gmail.com"
+}
+###
+
+POST  http://{{host}}/api/new-password
+Content-Type: {{contentType}}
+
+{
+    "password":"123456",
+    "token":"4f3dcd84fef1149a2702f02f0f1045fbddf174b669ab1339ce5f01e19a8780b0409fb766985a0364facdcafdd9d617fc59ad381641e2994d43706d43e9e04ccb"
+}
+###
+POST http://localhost:4000/api/advanced_search
+Content-Type: {{contentType}}
+
+{
+  "minModelYear": 2000,
+  "maxModelYear": 2022,
+  "city": "Islamabad",
+  "transmission": "Automatic",
+  "manufacturer": "KIA",
+  "assembly": "Local"
+}
+###
+POST http://localhost:4000/api/basic_search
+Content-Type: {{contentType}}
+
+{    
+    "model":"cit",
+    "version":"vx"
+}
+###
+POST http://localhost:4000/api/searchClients
+Content-Type: {{contentType}}
+x-access-token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlbXBAbWFpbC5jb20iLCJpYXQiOjE2NTQ3ODU4OTR9.g3GeFX7-ozuD1G0M_MFT2RmvLzFzsqydpDuHrlq4BkE"
+{
+    "name":"moeed"
+}
+
+###
+GET http://localhost:4000/api/cars
+Content-Type: {{contentType}}

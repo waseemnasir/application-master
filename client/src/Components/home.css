@@ -1,0 +1,125 @@
+.btn {
+  border-radius: 24px;
+  font-size: 26px;
+}
+.brand-name {
+  color: blue;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide span {
+  font-size: medium;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  float: left;
+  padding-left: 7rem;
+  top: -10px;
+}
+.center {
+  text-align: center;
+}
+
+.text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: 100;
+  text-align: center;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  text-align: justify;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  margin-right: 7rem;
+  padding: 10px;
+}
+
+.symbol_img {
+  width: 15rem;
+  height: 10rem;
+}
+
+.icon_img {
+  width: 22rem;
+  height: 15rem;
+  background-color: white;
+  border-style: groove;
+  margin-right: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.featured_cars {
+  width: 25rem;
+  height: 12rem;
+}
+
+.tucson_img {
+  position: relative;
+  top: -15px;
+}
+
+.civic_img {
+  position: relative;
+  top: -15px;
+}
+
+.swift_img {
+  position: relative;
+  top: -15px;
+}
+
+.top-right {
+  position: absolute;
+  bottom: 10em;
+  left: 3em;
+  color: aliceblue;
+  font-size: 2.5em;
+}
+
+.button:hover {
+  color: beige;
+  font-size: 0.5em;
+}
+
+.button {
+  width: 15em;
+}
+.card-img-top {
+  height: 20em;
+}
+.card-title {
+  color: maroon;
+}
+.car-price {
+  color: maroon;
+}
+.img-clas {
+  background-size: contain;
+}
+.res-sm{
+  padding-left: 0rem;
+}
+@media (max-width: 425px) {
+  .top-right{
+    position: absolute;
+    bottom: 5em;
+    left: 1em;
+    color: aliceblue;
+    font-size: 2.5em;
+  }
+  .res-sm{
+    padding-left: 6rem;
+  }
+  .small-margin{
+    padding-left: 90px;
+  }
+}
